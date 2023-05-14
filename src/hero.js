@@ -12,14 +12,14 @@ function Hero() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/img/BARGAINSALE-sale_n.jpg"
+            src="./public/img/BARGAINSALE-sale_n.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/img/FLASHSALE-sale_n.jpg"
+            src="./public/img/FLASHSALE-sale_n.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
