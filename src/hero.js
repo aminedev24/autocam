@@ -19,7 +19,7 @@ function Hero() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/BARGAINSALE-sale_n.jpg"}
+            src={process.env.PUBLIC_URL + "/logo192.png"}
             alt="Second slide"
           />
         </Carousel.Item>
