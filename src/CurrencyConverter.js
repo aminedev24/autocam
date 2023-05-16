@@ -15,7 +15,6 @@ const CurrencyConverter = () => {
 
   return (
     <div className="currency-converter">
-      <h2>Currency Converter</h2>
       <div className="input-container">
         <label htmlFor="usd-input">USD:</label>
         <input
