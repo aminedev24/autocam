@@ -3,6 +3,8 @@ import { Carousel } from "react-bootstrap";
 import "./slider.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SearchBox from "./searchBox";
+import heroImg1 from './BARGAINSALE-sale_n.jpg';
+import heroImg2 from './FLASHSALE-sale_n.jpg';
 
 function Hero() {
   return (
@@ -12,14 +14,15 @@ function Hero() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/img/BARGAINSALE-sale_n.jpg"}
+            src={heroImg1}
             alt="First slide"
           />
+
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/logo192.png"}
+            src={heroImg2}
             alt="Second slide"
           />
         </Carousel.Item>
