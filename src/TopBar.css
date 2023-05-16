@@ -51,3 +51,38 @@
     }
   }
   
+  .currency-converter {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border-radius: 5px;
+  }
+  
+  .currency-converter h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    margin-right: 10px;
+  }
+  
+  .input-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100px;
+  }
+  
+  .result {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
