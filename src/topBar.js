@@ -1,5 +1,6 @@
 import React from 'react';
 import './TopBar.css';
+import CurrencyConverter from './CurrencyConverter';
 
 function TopBar() {
   // Get current date and time in Japan Standard Time
@@ -23,6 +24,7 @@ function TopBar() {
       </div>
       <div className="date">{`Japan Standard Time ${now}`}</div>
       <div className="currency">{exchangeRate}</div>
+      <CurrencyConverter />
     </div>
   );
 }
