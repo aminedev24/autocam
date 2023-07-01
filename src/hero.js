@@ -3,8 +3,9 @@ import { Carousel } from "react-bootstrap";
 import "./slider.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SearchBox from "./searchBox";
-import heroImg1 from './BARGAINSALE-sale_n.jpg';
-import heroImg2 from './FLASHSALE-sale_n.jpg';
+import heroImg1 from './BARGAINSALE-sale_n copy.jpg';
+//const heroImg1 = require('./BARGAINSALE-sale_n.jpg').default;
+import heroImg2 from './FLASHSALE-sale_n copy.jpg';
 
 function Hero() {
   return (

@@ -53,7 +53,7 @@
   
   .currency-converter {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 13px;
     border-radius: 5px;
   }
