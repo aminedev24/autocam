@@ -6,22 +6,22 @@ import importantnotice from './importantnotice.png';
 const dealsData = [
   {
     id: 1,
-    imageSrc: 'https://dummyimage.com/200x200/ff0000/ffffff',
+    imageSrc: 'https://autocj.co.jp/images/newimages/new.png?ver=39',
     title: 'New Stock',
   },
   {
     id: 2,
-    imageSrc: 'https://dummyimage.com/200x200/00ff00/ffffff',
-    title: 'Bargain Sale',
+    imageSrc: 'https://autocj.co.jp/images/newimages/EARLYSUMMERSALE_mb.jpg?ver=39',
+    title: 'EARLY SUMMER SALE',
   },
   {
     id: 3,
-    imageSrc: 'https://dummyimage.com/200x200/0000ff/ffffff',
+    imageSrc: 'https://autocj.co.jp/images/newimages/lowmileage.png?ver=39',
     title: 'Low Mileage',
   },
   {
     id: 4,
-    imageSrc: 'https://dummyimage.com/200x200/ff00ff/ffffff',
+    imageSrc: 'https://autocj.co.jp/images/newimages/8seats.png?ver=39',
     title: 'Over 8 Seats',
   },
   // Add more deals data here...

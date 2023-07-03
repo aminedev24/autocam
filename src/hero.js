@@ -9,6 +9,7 @@ import heroImg2 from './FLASHSALE-sale_n copy.jpg';
 
 function Hero() {
   return (
+    <>
   <div className="hero">
     <div className="carousel-container">
       <Carousel nextIcon={<span className="carousel-arrow">&#8250;</span>} prevIcon={<span className="carousel-arrow">&#8249;</span>}>
@@ -30,8 +31,13 @@ function Hero() {
       </Carousel>
     </div>
 
+    
+  </div>
+  <div className="searchBox">
     <SearchBox />
   </div>
+ 
+  </>
   );
 }
 

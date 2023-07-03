@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import "./collections.css";
+import "./collections.css";
 
 function CarCollection({ year, make, minPrice, maxPrice }) {
   const [filteredCars, setFilteredCars] = useState([]);
@@ -33,8 +33,10 @@ function CarCollection({ year, make, minPrice, maxPrice }) {
 
   return (
     <div className="car-collection">
+      <h4>Results</h4>
       {filteredCars.length > 0 ? (
         filteredCars.map((car) => (
+
           <div key={car.id}>
             <h3>{car.make}</h3>
             <p>Year: {car.year}</p>

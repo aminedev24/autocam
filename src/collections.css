@@ -2,6 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    margin: 20px;
+    width: 280px;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .car-collection h4 {
+    color: #9e4545;
+    text-align: left;
   }
   
   .car-collection > div {

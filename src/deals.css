@@ -25,6 +25,9 @@
     width: 100%;
     height: auto;
     border-radius: 5px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
   }
   
   .deal-title {
@@ -86,9 +89,14 @@
   }
 
   .important-notice-heading {
-    display: flex;
+    /*display: flex;*/
   }
   
+  .deal-image:hover {
+    transform: rotateX(10deg) rotateY(10deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
   .important-notice-container, .price-drop-alert-container {
     width: 20%;
     height: fit-content;
