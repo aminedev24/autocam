@@ -20,7 +20,7 @@ function TopBar() {
   return (
     <div className="top-bar">
       <div className="topbar-header">
-        AUTOCOM JAPAN
+        React App
       </div>
       <div className="date">{`Japan Standard Time ${now}`}</div>
       <div className="currency">{exchangeRate}</div>
