@@ -139,6 +139,7 @@
   padding: 5px;
   border-radius: 5px;
   width: 17%;
+  position: relative;
 }
 
 .user-button {
@@ -147,6 +148,12 @@
   cursor: pointer;
   margin-left: 10px;
   position: relative;
+}
+
+.user-button-profile { 
+  position: absolute;
+  z-index: 900;
+  left: 92px;
 }
 
 .user-icon {
@@ -239,6 +246,10 @@
     z-index: 999;
   }
 
+  .user-menu {
+    position: relative;
+  }
+
   .navigation .hamburger-menu {
     display: block;
     background: none;
@@ -276,6 +287,12 @@
 
   .nav-item.dropdown .dropdown-menu li {
     padding: 10px 15px;
+  }
+
+  .user-dropdown {
+    right: 69px;
+    position: relative;
+    top: 162px;
   }
 }
 

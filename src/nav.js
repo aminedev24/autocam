@@ -118,7 +118,7 @@ function Navigation({ country }) {
         <button className="user-button">
           <FontAwesomeIcon icon={faHeart} className="user-icon" />
         </button>
-        <button className="user-button">
+        <button className="user-button user-button-profile">
           <FontAwesomeIcon icon={faUser} className="user-icon" />
           <FontAwesomeIcon icon={faChevronDown} className="user-icon" />
           <div className="user-dropdown">
